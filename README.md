@@ -8,51 +8,79 @@
 **Author:** David  
 **Email:** davidk76011@gmail.com  
 **Runs via:** `main.aya` (using the [Arya Framework](https://github.com/david0154/Arya))  
-**License:** MIT  
-
----
-
-## 📥 Download
-
-Get the full project (code, models, logo, everything included) here:  
-**[Download David One AI – Complete Package (ZIP)](https://example.com/david_one_ai.zip)**  
-*(Link placeholder – replace with your actual hosting URL, e.g., GitHub Releases)*
+**License:** Apache  
 
 ---
 
 ## 🧠 What Is David One AI?
 
-**David One AI** is a fully offline AI assistant that:
+**David One AI** is a full offline intelligent assistant that can:
 
-- 💬 Holds smart multilingual conversations
-- 💻 Helps generate or debug code
-- 🖼️ Edits, enhances, and deblurs images
-- 🗣️ Speaks and listens in **9+ languages**
-- 🧠 Runs **100% locally** after initial setup
+- 💬 Chat in your language (voice or text)
+- 💻 Generate code (HTML, Python, JS, etc.)
+- 🖼️ Edit, enhance, and deblur images
+- 🗣️ Speak in **9+ languages**
+- 🔌 Run without internet after setup
 
 ---
 
-## ⚙️ Arya Framework Installation
+## 🖥️ System Requirements
 
-This project uses the [Arya Framework](https://github.com/david0154/Arya). Follow these steps to get it working:
+> Minimum specs to run David One AI smoothly:
 
-1. Clone Arya:
-   ```bash
-   git clone https://github.com/david0154/Arya.git
-   cd Arya
-   pip install -r requirements.txt
-   python setup.py install
-   ```
+| Component     | Recommended                       |
+|---------------|-----------------------------------|
+| 💽 RAM        | 8 GB (minimum), 16 GB preferred    |
+| 🧠 CPU        | 4-core+ processor (Intel i5/Ryzen 5 or higher) |
+| 🎮 GPU        | 4 GB VRAM (NVIDIA/AMD) optional (CPU fallback enabled) |
+| 💾 Storage    | ~8 GB (initial setup & models)     |
+| 🖥️ OS         | Windows, Linux, or macOS           |
+| 🌐 Internet   | Required once (to download models) |
+
+> ✅ After first run, the AI runs **fully offline.**
+
+---
+
+## 🌍 Multilingual Voice Support
+
+David One AI supports both text and voice in:
+
+> 🇬🇧 English • 🇮🇳 Hindi • 🇧🇩 Bengali • 🇱🇰 Tamil • 🇮🇳 Marathi • 🇮🇳 Punjabi • 🇵🇰 Urdu • 🇮🇳 Telugu • 🇮🇳 Assamese
+
+---
+
+## ⚙️ How to Install Arya Framework
+
+David One AI uses the [Arya Framework](https://github.com/david0154/Arya) to launch `.aya` files.
+
+### 🧩 Install Steps
+
+```bash
+# 1. Clone Arya Framework
+git clone https://github.com/david0154/Arya.git
+```
+```bash
+cd Arya
+```
+
+# 2. Install Arya dependencies
+```bash
+pip install -r requirements.txt
+```
+
+# 3. Install Arya globally
+```bash
+python setup.py install
+```
 2. Ensure `.aya` files run correctly:
    ```bash
-   aria run main.aya
+   arya run main.aya
    ```
 3. Back in the `David-one-ai/` directory, simply run:
    ```bash
    python main.aya
    ```
 
----
 
 ## 🌍 Language Support
 
@@ -99,21 +127,38 @@ David‑one‑ai/
 
 ---
 
-## 🛠️ How to Run
+## 🛠️ Installation Guide (Step-by-Step)
 
-1. Download and unzip the complete package (including `logo.png`).
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Ensure Arya framework is installed and `aria` is available:
-   ```bash
-   aria --help
-   ```
-4. Launch the AI:
-   ```bash
-   python main.aya
-   ```
+### 🔹 Step 1: Clone the Repository
+
+```bash
+git clone (https://github.com/david0154/David-one-ai.git)
+```
+
+```bash
+cd David-one-ai
+```
+
+### 🔹 Step 2: Create a Virtual Environment (Windows)
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 🔹 Step 3: Install All Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 First Run
+
+```bash
+python main.aya
+```
 
 On first run, the system downloads all pretrained models:
 
@@ -126,7 +171,7 @@ On first run, the system downloads all pretrained models:
 
 ## 📜 License
 
-Released under the **MIT License**. Feel free to modify and distribute!
+Released under the **Apache License**. Feel free to modify and distribute!
 
 ---
 
