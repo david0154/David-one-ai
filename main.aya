@@ -1,0 +1,23 @@
+# File: main.aya
+# AI: David One AI
+# Author: David
+# Email: davidk76011@gmail.com
+
+import os
+import subprocess
+from modules.setup import setup_environment
+from modules.ui import launch_ui
+from modules.voice import init_voice
+from modules.brain import Brain
+
+print("🔁 Initializing David One AI...")
+setup_environment()
+
+# 🧠 Load Brain (Chat + Code + Image + Voice AI)
+brain = Brain()
+
+# 🗣️ Start voice input/output (multilingual)
+init_voice(brain)
+
+# 🖥️ Launch the web UI
+launch_ui(brain)
