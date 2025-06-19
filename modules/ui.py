@@ -25,9 +25,22 @@ def launch_ui(brain):
         else:
             return image
 
+    # ✨ Add HTML banner with tagline
+    banner_html = """
+    <div style="text-align: center; padding: 20px;">
+        <img src="logo.png" alt="David One AI Logo" width="120"/>
+        <h1 style="color: #2f70d1;">David One AI</h1>
+        <p style="font-size: 18px; color: #444;">
+            Your Private Offline AI for <strong>Coding</strong>, <strong>Conversation</strong>, and <strong>Image Intelligence</strong>
+        </p>
+        <p style="font-size: 14px; color: #777;">
+            Supports 9+ Indian Languages · Powered by Arya Framework · Voice + Image + Code AI
+        </p>
+    </div>
+    """
+
     with gr.Blocks(title="David One AI") as ui:
-        gr.Markdown("# 🤖 David One AI – Multilingual Assistant")
-        gr.Markdown("Created by **David** | Contact: `davidk76011@gmail.com`")
+        gr.HTML(banner_html)  # ⬅️ This shows the custom banner at the top
 
         with gr.Tab("💬 Conversation"):
             text_input = gr.Textbox(label="Enter your message")
