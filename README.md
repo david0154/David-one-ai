@@ -8,7 +8,7 @@
 **Author:** David  
 **Email:** davidk76011@gmail.com  
 **Runs via:** `main.aya` (using the [Arya Framework](https://github.com/david0154/Arya))  
-**License:** MIT  
+**License:** Apache  
 
 ---
 
@@ -132,11 +132,11 @@ David‑one‑ai/
 ### 🔹 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/david0154/David-zero-ai.git
+git clone (https://github.com/david0154/David-one-ai.git)
 ```
 
 ```bash
-cd David-zero-ai
+cd David-one-ai
 ```
 
 ### 🔹 Step 2: Create a Virtual Environment (Windows)
@@ -171,7 +171,7 @@ On first run, the system downloads all pretrained models:
 
 ## 📜 License
 
-Released under the **MIT License**. Feel free to modify and distribute!
+Released under the **Apache License**. Feel free to modify and distribute!
 
 ---
 
