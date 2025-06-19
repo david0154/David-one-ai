@@ -127,21 +127,38 @@ David‑one‑ai/
 
 ---
 
-## 🛠️ How to Run
+## 🛠️ Installation Guide (Step-by-Step)
 
-1. Download and unzip the complete package (including `logo.png`).
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Ensure Arya framework is installed and `arya` is available:
-   ```bash
-   arya --help
-   ```
-4. Launch the AI:
-   ```bash
-   python main.aya
-   ```
+### 🔹 Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/david0154/David-zero-ai.git
+```
+
+```bash
+cd David-zero-ai
+```
+
+### 🔹 Step 2: Create a Virtual Environment (Windows)
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 🔹 Step 3: Install All Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 First Run
+
+```bash
+python main.aya
+```
 
 On first run, the system downloads all pretrained models:
 
